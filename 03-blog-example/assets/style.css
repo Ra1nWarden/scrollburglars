@@ -149,7 +149,7 @@ a {
 .heading-decoration {
   position: absolute;
   top: -25px;
-  right: 20px;
+  right: 0px;
   width: 75px;
   height: 75px;
   background: papayawhip;
@@ -159,4 +159,10 @@ a {
 
 .heading-content {
   position: relative;
+}
+
+@media (max-width: 825px) {
+  main {
+    overflow: hidden;
+  }
 }
